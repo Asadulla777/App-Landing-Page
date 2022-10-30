@@ -1,0 +1,354 @@
+/* Universal selector */
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    box-sizing: border-box;
+    font-family: 'Work Sans', sans-serif;
+}
+section {
+    padding: 100px 0px;
+    text-align: center;
+}
+.description {
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 12px;
+}
+.phn {
+    width: 200px;
+}
+.head {
+    font-size: 23px;
+    font-weight: bold;
+    line-height: 23px;
+    padding: 40px 0px;
+}
+.sub-heading {
+    font-size: 15px;
+    line-height: 15px;
+    padding: 15px 0px;
+}
+/* Layout part */
+.container{
+    width: 90%;
+    margin: auto;
+}
+.row{
+    width: 100%;
+    float: left;
+}
+.col-1 {
+    width: 8.33%;
+    float: left;
+}
+.col-2 {
+    width: 16.66%;
+    float: left;
+}
+.col-3 {
+    width: 25%;
+    float: left;
+}
+.col-4 {
+    width: 33.33%;
+    float: left;
+}
+.col-5 {
+    width: 41.66%;
+    float: left;
+}
+.col-6 {
+    width: 50%;
+    float: left;
+}
+.col-7 {
+    width: 58.33%;
+    float: left;
+}
+.col-8 {
+    width: 66.66%;
+    float: left;
+}
+.col-9 {
+    width: 75%;
+    float: left;
+}
+.col-10 {
+    width: 83.33%;
+    float: left;
+}
+.col-11 {
+    width: 91.66%;
+    float: left;
+}
+.col-12 {
+    width: 100%;
+    float: left;
+}
+header {
+    background: url(../img/v1-hero-bg.png) no-repeat center;
+    background-size: cover;
+    text-align: center;
+    color: #ffffff;
+    margin-bottom: -240px;
+}
+nav {
+    padding-top: 20px;
+    margin: 10px 15px;
+}
+.logopart {
+    text-align: left;
+}
+.menupart {
+    text-align: right;
+    padding-right: 10px;
+}
+.menupart li {
+    list-style: none;
+    display: inline-block;
+    padding: 5px;
+    margin: 5px;
+}
+.menupart li a {
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 17px;
+    color: #ffffff;
+}
+.heropart {
+    padding: 50px 200px;
+}
+.heropart h1 {
+    padding: 20px 0px;
+}
+.heropart-btn {
+    padding: 40px 0px 55px 0px;    
+}
+.heropart-btn button {
+    font-size: 15px;
+    font-weight: 400;
+    color: #ffffff;
+    background: transparent;
+    border: #ffffff 1px solid;
+    border-radius: 5px;
+    margin: 0px 20px;
+    width: 150px;
+    height: 35px;
+    transition: ease-in-out 0.5s;
+}
+.heropart-btn button:hover {
+    background: #ffffff;
+    color: black;
+}
+#about-one {
+    text-align: center;
+    padding: 200px 0px 150px;
+    background: url(../img/v2-hero-bg.png) no-repeat center;
+    background-size: cover;
+}
+.about-one-box-part {
+    width: 400px;
+}
+.about-one-box {
+    padding: 25px 15px;
+    box-shadow: 0px 0px 10px;
+    width: 200;
+    height: 250px;
+    border-radius: 10px;
+}
+.one {
+    position: relative;
+    bottom: 40px;
+    left: 20px;
+}
+.two {
+    position: relative;
+    top: 15px;
+    left: 80px;
+}
+.three {
+    position: relative;
+    top: 80px;
+    left: 220px;
+}
+.four {
+    position: relative;
+    right: 240px;
+    top: 20px;
+}
+#about-two {
+    background: #ffffff;
+}
+.about-writing-part {
+    text-align: right;
+    padding-top: 100px;
+}
+.about-writing-part p {
+    padding: 0px 7px 7px 0px;
+}
+.about-writing-part button {
+    font-size: 15px;
+    font-weight: 400;
+    color: #ffffff;
+    background: #33d2fd;
+    border-radius: 5px;
+    margin: 20px 0px;
+    width: 150px;
+    height: 35px;
+}
+.about-two-box-part {
+    padding-left: 70px;
+}
+.about-two-box {
+    padding: 20px 10px;
+    box-shadow: 0px 0px 10px;
+    width: 90%;
+    border-radius: 10px;
+    margin: 20px 0px;
+}
+.about-img {
+    text-align: right;
+}
+.about-sh {
+    text-align: left;
+    padding-left: 20px;
+}
+#extra {
+    background: #33d2fd;
+}
+#white {
+    color: #ffffff;
+}
+#info {
+    background: #fafafc;
+}
+.info-img-part {
+    position: relative;
+    top: 20px;
+}
+.info-img-part img {
+    width: 400px;
+}
+.info-writing-part {
+    text-align: left;
+    padding: 0px 15px 0px 50px;
+}
+.tik {
+    width: 12px;
+}
+#app {
+    background: url(../img/app-bg.png) no-repeat center;
+    background-size: cover;
+    text-align: center;
+}
+.app-writing-part {
+    text-align: left;
+}
+#des {
+    color: #ffffff;
+    padding: 0px 70px 0px 5px;
+}
+.app-writing-part a {
+    text-align: left;
+}
+.app-writing-part img {
+    width: 150px;
+    height: 35px;
+    border-radius: 5px;
+    margin: 30px 25px 15px 0px;
+}
+#last-btn {
+    background: linear-gradient(#fd7071, #f73f7c);
+    color: #ffffff;
+    width: 250px;
+    height: 40px;
+    font-size: 15px;
+    line-height: 15px;
+    font-weight: 400;
+    text-align: center;
+    margin: auto;
+    position: relative;
+    top: 115px;
+    box-shadow: #f73f7c 0px 0px 10px;
+}
+#subscription {
+    background: #ffffff;
+}
+.last-h {
+    font-size: 17px;
+    line-height: 17px;
+    font-weight: bold;
+    padding: 15px 0px;
+}
+.all-in-one {
+    text-align: left;
+    padding-bottom: 100px;
+}
+.all-in-one li {
+    list-style: none;
+    padding: 5px 0px;
+}
+.all-in-one li a {
+    text-decoration: none;
+    color: #6a6d89;
+}
+.four-column {
+    padding-left: 100px;
+}
+.two-column {
+    padding: 0px 5px;
+}
+#dev {
+    padding-right: 40px;
+}
+#com {
+    padding-left: 45px;
+}
+.sub-form {
+    text-align: center;
+}
+form {
+    padding-top: 40px;
+}
+input[type="email"] {
+    background: #f6f7fb;
+    width: 400px;
+    height: 35px;
+}
+input[type="submit"] {
+    background: #33d2fd;
+    color: #ffffff;
+    font-size: 12px;
+    line-height: 12px;
+    font-weight: 300;
+    color: #233148;
+    width: 100px;
+    height: 35px;
+    padding-bottom: 3px;
+}
+footer {
+    background: #233148;
+    padding: 10px 0px;
+}
+.copyright-part {
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 12px;
+    color: #ffffff;
+    padding: 5px 0px 5px 40px;
+}
+.social-icon-part {
+    text-align: right;
+    padding-right: 40px;
+}
+.social-icon-part img {
+    width: 15px;
+    margin: 0px 15px;
+}
+#fb {
+    width: 8px;
+}
